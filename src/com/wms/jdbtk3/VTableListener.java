@@ -1,0 +1,1 @@
+/* * RecordListener.java * * Created on January 10, 2005, 10:55 PM */package com.wms.jdbtk3;import java.util.EventListener;/** * * @author  mstemen */public interface VTableListener extends EventListener {        void tableChanged( VTableEvent evt );    }

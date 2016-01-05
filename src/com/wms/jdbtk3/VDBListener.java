@@ -1,0 +1,1 @@
+/* * VDBListener.java * * Created on January 10, 2005, 10:55 PM */package com.wms.jdbtk3;import java.util.EventListener;/** * * @author  mstemen */public interface VDBListener extends EventListener {        public void databaseChanged( VDBEvent event );             public void databaseError( VDBEvent event );}
